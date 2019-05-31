@@ -44,7 +44,7 @@ sudo apt upgrade
 ## 安装docker
 
 首先是下载docker，docker官网给出了脚本，下载的时候确保网络通畅，否则可能会出现问题。如果安装过docker还会人性化的询问是否重新安装。\
-docker-ce需要自行安装，需要先添加下载源
+docker-ce需要先添加下载源
 
 ```sh
 # 下载需要的工具
@@ -186,6 +186,8 @@ services:
 ```
 
 ### ghost.conf
+
+可以自行添加ssl证书开启https访问
 
 ```conf
 server {
